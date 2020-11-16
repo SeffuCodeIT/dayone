@@ -152,6 +152,12 @@ so this will automatically change this as well
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
+@media only screen and (min-width: 600px) {
+    .boxText > h2 {
+        padding-top: 960px;
+        font-size: 45px;
+    }
+}
 /***********************************************************************
  *  Body card grid
  **********************************************************************/
